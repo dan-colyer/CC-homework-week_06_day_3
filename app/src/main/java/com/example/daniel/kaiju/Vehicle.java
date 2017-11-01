@@ -17,6 +17,10 @@ public abstract class Vehicle {
     public String getType() {
         return this.type;
     }
+
+    public double getHealthValue() {
+        return this.healthValue;
+    }
 }
 
 

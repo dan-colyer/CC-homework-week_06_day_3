@@ -22,4 +22,9 @@ public class SegwayTest {
         assertEquals("Shredder", segway.getType());
     }
 
+    @Test
+    public void getHealthValue() {
+        assertEquals(100.00, segway.getHealthValue(), 0.01);
+    }
+
 }
