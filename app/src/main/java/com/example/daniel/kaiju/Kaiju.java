@@ -9,12 +9,23 @@ public abstract class Kaiju {
     String name;
     double healthValue;
     double attackValue;
+    String roar;
 
-    public Kaiju(String name, double healthValue, double attackValue) {
+    public Kaiju(String name, double healthValue, double attackValue, String roar) {
         this.name = name;
         this.healthValue = healthValue;
         this.attackValue = attackValue;
+        this.roar = roar;
     }
+
+    public String getName() {
+        return this.name;
+    }
+
+    public double getHealthValue() {
+        return this.healthValue;
+    }
+
 }
 
 //    Using TDD, abstract classes and interfaces where appropriate, model the following;

@@ -4,17 +4,11 @@ package com.example.daniel.kaiju;
  * Created by Daniel on 01/11/2017.
  */
 
-public class PygmyHippo extends Kaiju implements Roar {
+public class PygmyHippo extends Kaiju {
 
-    public PygmyHippo(String name, double healthValue, double attackValue) {
-        super(name, healthValue, attackValue);
+    public PygmyHippo(String name, double healthValue, double attackValue, String roar) {
+        super(name, healthValue, attackValue, roar);
     }
 
-    @Override
-    public String roar() {
-        return "Meep";
-    }
+
 }
-
-//    public Dragon(String name){
-//        super(name);
