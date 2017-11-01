@@ -26,4 +26,9 @@ public class PygmyHippoTest {
     public void hasHealthValue() {
         assertEquals(100.00, pygmyHippo.getHealthValue(), 0.01);
     }
+
+    @Test
+    public void hasAttackValue() {
+        assertEquals(50.00, pygmyHippo.getAttackValue(), 0.01);
+    }
 }

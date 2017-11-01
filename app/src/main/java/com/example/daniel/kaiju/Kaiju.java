@@ -26,6 +26,10 @@ public abstract class Kaiju {
         return this.healthValue;
     }
 
+    public double getAttackValue() {
+        return this.attackValue;
+    }
+
 }
 
 //    Using TDD, abstract classes and interfaces where appropriate, model the following;
