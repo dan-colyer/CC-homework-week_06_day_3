@@ -30,6 +30,10 @@ public abstract class Kaiju {
         return this.attackValue;
     }
 
+    public String getRoar() {
+        return this.roar;
+    }
+
 }
 
 //    Using TDD, abstract classes and interfaces where appropriate, model the following;
