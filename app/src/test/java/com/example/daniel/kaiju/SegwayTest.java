@@ -11,6 +11,7 @@ import static org.junit.Assert.*;
 public class SegwayTest {
 
     Segway segway;
+    PygmyHippo pygmyHippo;
 
     @Before
     public void before() {

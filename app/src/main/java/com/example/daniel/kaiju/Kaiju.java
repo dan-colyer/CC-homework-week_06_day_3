@@ -34,6 +34,13 @@ public abstract class Kaiju {
         return this.roar;
     }
 
+    public void attack(Vehicle vehicle) {
+        vehicle.reduceHealth();
+    }
+
 }
 
 
+//        Give the Kaiju an 'attack' method which can be used to damage vehicles.
+//
+//        Give the Kaiju a 'move'/'fly' method, which returns a string (depending on the Kaiju).

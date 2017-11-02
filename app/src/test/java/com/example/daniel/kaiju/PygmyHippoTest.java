@@ -36,4 +36,9 @@ public class PygmyHippoTest {
     public void hasRoar() {
         assertEquals("Moof", pygmyHippo.getRoar());
     }
+
+    @Test
+    public void hasAttacked() {
+
+    }
 }
